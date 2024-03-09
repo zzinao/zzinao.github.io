@@ -7,6 +7,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import AndroidIcon from '@mui/icons-material/Android';
 import AppleIcon from '@mui/icons-material/Apple';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import NoteIcon from '@mui/icons-material/Note';
 
 import './style.scss';
 
@@ -28,6 +29,8 @@ function IconButtonBar({ links = {} }) {
         return <EmailIcon {...props} />;
       case 'linkedIn':
         return <LinkedInIcon {...props} />;
+      case 'tiStory':
+        return <NoteIcon {...props} />;
       default:
         return <></>;
     }
@@ -39,7 +42,11 @@ function IconButtonBar({ links = {} }) {
         return (
           links[link] && (
             <Tooltip key={index} title={link} arrow className="icon-tooltip">
-              <IconButton size="small" href={`${link === 'email' ? `mailto:` : ``}${links[link]}`}>
+              <IconButton
+                size="small"
+                href={`${link === 'email' ? `mailto:` : ``}${links[link]}`}
+                target="_blank"
+              >
                 {IconPicker(link)}
               </IconButton>
             </Tooltip>

@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
       <PageHeader siteTitle={title || `Title`} />
       <main className="page-content">{children}</main>
       <PageFooter
-        author={author.name || `Author`}
+        author={title || 'zzinao'}
         githubUrl={author.social?.github || `https://www.github.com`}
       />
       <ThemeSwitch />

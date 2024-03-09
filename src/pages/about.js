@@ -3,19 +3,28 @@ import { graphql } from 'gatsby';
 import Layout from '../layout';
 import Seo from '../components/seo';
 import Bio from '../components/bio';
-import TimeStampSection from '../components/timestamp-section';
-import ProjectSection from '../components/project-section';
+// import TimeStampSection from '../components/timestamp-section';
+// import ProjectSection from '../components/project-section';
+import Image from '../components/image';
 
 function AboutPage({ data }) {
   const metaData = data.site.siteMetadata;
-  const { author, about, language } = metaData;
-  const { timestamps, projects } = about;
+  const {
+    author,
+    // about,
+    language,
+  } = metaData;
+  // const { timestamps, projects } = about;
   return (
     <Layout>
       <Seo title="About" />
       <Bio author={author} language={language} />
-      <TimeStampSection timestamps={timestamps} />
-      <ProjectSection projects={projects} />
+      <Image src={'about.jpeg'} />
+      <div style={{ padding: '20px 0' }}>
+        <p style={{ fontSize: '16px', fontWeight: '500' }}>모르니까 청춘이다</p>
+      </div>
+      {/* <TimeStampSection timestamps={timestamps} />
+      <ProjectSection projects={projects} /> */}
     </Layout>
   );
 }
@@ -38,8 +47,7 @@ export const pageQuery = graphql`
           }
           social {
             github
-            linkedIn
-            email
+            tiStory
           }
         }
 
