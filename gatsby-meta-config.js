@@ -1,6 +1,6 @@
 module.exports = {
   title: `zzinao`,
-  description: `지나의 블로그`,
+  description: `지나의 개발 블로그`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://zzinao.github.io`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
