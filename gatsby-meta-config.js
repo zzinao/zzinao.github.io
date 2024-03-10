@@ -3,7 +3,7 @@ module.exports = {
   description: `지나의 개발 블로그`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://zzinao.github.io`,
-  ogImage: `/og-image.png`, // Path to your in the 'static' folder
+  ogImage: `/og-image.jpg`, // Path to your in the 'static' folder
   comments: {
     utterances: {
       repo: `zzonao/zzinao.github.io`,
