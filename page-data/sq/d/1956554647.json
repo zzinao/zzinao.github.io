@@ -1,1 +1,1 @@
-{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"blog test","categories":"회고 공부기록"},"fields":{"slug":"/gatsby-github-blog/"}}}]}}}
+{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"리팩토링에 대한 고찰1 (feat.컴파운드 패턴)","categories":"리팩토링"},"fields":{"slug":"/refactoring-compound-pattern/"}}}]}}}
