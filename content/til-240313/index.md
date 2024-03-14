@@ -8,3 +8,5 @@ categories: TIL
 ---
 
 ## Javascript Prototype
+
+자바스크립트는 프로토타입 언어이다.
