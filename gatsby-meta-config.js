@@ -9,7 +9,7 @@ module.exports = {
       repo: `zzonao/zzinao.github.io`,
     },
   },
-  ga: '0', // Google Analytics Tracking ID
+  ga: 'GTM-PND27WKQ', // Google Analytics Tracking ID
   author: {
     name: `지나`,
     bio: {
