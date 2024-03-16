@@ -1,1 +1,1 @@
-{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"리팩토링에 대한 고찰1 (feat.컴파운드 패턴)","categories":"리팩토링"},"fields":{"slug":"/refactoring-compound-pattern/"}}}]}}}
+{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"TIL 240313","categories":"TIL"},"fields":{"slug":"/til-240313/"}}},{"node":{"frontmatter":{"title":"리팩토링에 대한 고찰1 (feat.컴파운드 패턴)","categories":"리팩토링"},"fields":{"slug":"/refactoring-compound-pattern/"}}}]}}}
