@@ -2,6 +2,8 @@
 
 .page-footer-wrapper {
   display: flex;
+  flex-direction: column;
+  gap: 8px;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -20,7 +22,7 @@
     }
 
     a {
-      color: #3A95FF;
+      color: #3a95ff;
     }
   }
 }
